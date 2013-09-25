@@ -1,0 +1,307 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+/*--- Body ---*/
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #036;
+	background-color: #fff;
+	height: 100%;
+	margin: 0;
+}
+
+header p {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 14px;
+	font-size: 11px;
+	text-align: left;
+}
+
+h1 {
+	color: #24539F;
+	background-color: #FFF;
+	font-family: "Walkway SemiBold", Helvetica, Arial;
+	font-size: 25px;
+	margin: 0;
+	padding: 0;
+}
+
+article {
+	background-color: #fff;
+	padding: 10%;
+	padding-bottom:5%;
+}
+
+.horizontalrule {
+	width: 100%;
+	margin-top: 15%;
+}
+
+/*--- Social Media Icons ---*/
+
+#linkcontainer ul {
+	margin: 0;
+	padding-left: 0;
+	padding-bottom: 30%;
+	list-style-type: none;
+}
+
+#linkcontainer ul li {
+	display: inline;
+}
+
+#linkcontainer ul li a {
+	padding: .4em;
+}
+
+/*--- Background Image ---*/
+
+figure {
+	margin: 0;
+}
+
+.bgimage {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.bgimage a {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+	right: 0;
+}
+
+/*--- Footer ---*/
+
+footer {
+	min-height: 100%;
+	position: relative;
+	color: #fff;
+	font-size: .5em;
+	padding-top: 5%;
+	padding-bottom: 2%;
+	background-color: #036;
+}
+
+/*----------------- Media Queries -------------------*/
+
+@media screen and (min-width: 30em) {
+	
+/*--- Body ---*/
+	
+article {
+	background-color: #fff;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-bottom:0;
+}
+
+.horizontalrule {
+	width: 100%;
+	margin-top: 15%;
+}
+
+h1 {
+	color: #24539F;
+	background-color: #FFF;
+	font-family: "Walkway SemiBold", Helvetica, Arial;
+	font-size: 30px;
+	margin: 0;
+	padding: 0;
+}
+
+header p {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 16px;
+	font-size: 14px;
+	text-align: left;
+}
+
+/*--- Social Media Icons ---*/
+
+#linkcontainer ul {
+	margin: 0;
+	padding-left: 0%;
+	padding-bottom: 5%;
+	list-style-type: none;
+}
+
+#linkcontainer ul li {
+	display: inline;
+}
+
+#linkcontainer ul li a {
+	padding: .5em;
+}
+
+/*--- Background Image ---*/
+
+#biographic {
+	padding-left: 10%;
+}
+
+.bgimage {
+    width: 80%;
+    height: auto;
+    position: relative
+}
+
+.bgimage a {
+    width: 100%;
+    position: absolute;
+}
+
+@media screen and (min-width: 40em) {
+	
+/*--- Body ---*/
+
+article {
+	background-color: #fff;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-bottom:5%;
+}
+
+.horizontalrule {
+	width: 100%;
+}
+
+h1 {
+	color: #24539F;
+	background-color: #FFF;
+	font-family: "Walkway SemiBold", Helvetica, Arial;
+	font-size: 35px;
+	margin: 0;
+	padding: 0;
+}
+
+header p {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 19px;
+	font-size: 15px;
+	text-align: left;
+}
+
+/*--- Social Media Icons ---*/
+
+#linkcontainer ul {
+	margin: 0;
+	padding-left: 0%;
+	padding-bottom: 3%;
+	list-style-type: none;
+}
+
+#linkcontainer ul li {
+	display: inline;
+}
+
+#linkcontainer ul li a {
+	padding: .5em;
+}
+
+/*--- Background Image ---*/
+
+#biographic {
+	padding-left: 20%;
+}
+
+.bgimage {
+    width: 60%;
+    height: auto;
+    position: relative
+}
+
+.bgimage a {
+    width: 100%;
+    position: absolute;
+}
+
+}
+
+@media screen and (min-width: 75em) {
+	
+/*--- Body ---*/
+
+
+article {
+	background-color: #fff;
+	max-width: 20%;
+	padding-bottom:5%;
+	padding-right: 5%;
+	float: right;
+
+}
+
+.horizontalrule {
+	width: 100%;
+	margin-top: 20%;
+	
+}
+
+h1 {
+	color: #24539F;
+	background-color: #FFF;
+	font-family: "Walkway SemiBold", Helvetica, Arial;
+	font-size: 30px;
+	margin: 0;
+	padding: 0;
+}
+
+header p {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 22px;
+	font-size: 16px;
+	text-align: left;
+}
+
+/*--- Social Media Icons ---*/
+
+#linkcontainer ul {
+	margin: 0;
+	padding-left: 0%;
+	padding-bottom: 3%;
+	list-style-type: none;
+}
+
+#linkcontainer ul li {
+	display: inline;
+}
+
+#linkcontainer ul li a {
+	padding: .5em;
+}
+
+/*--- Background Image ---*/
+
+figure {
+	background-color: #fff;
+	float: left;
+	padding-top: 10%;
+	margin: 0;
+}
+
+.bgimage {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+	
+}
